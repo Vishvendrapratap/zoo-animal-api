@@ -10,8 +10,6 @@ async function generateInfo(){
 
     // getting info to dom
      information.innerHTML=`
-     <div class="row">
-        <div class="col-lg-12 col-sm-12">
 
         <div class="card" style="width: 45rem; margin-top: 10px;">
             <div class="card-header" style="text-align: center">
@@ -29,8 +27,7 @@ async function generateInfo(){
              </div> 
             </div>
         </div>
-        </div>
-        </div>
+
      `
    } catch (error) {
         console.log("There is some error in information generator")

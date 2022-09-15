@@ -25,6 +25,10 @@
     margin-bottom: 10px;
 }
 
+.card{
+    max-width: 100%;
+}
+
 .card-body{
     background-image: linear-gradient(135deg, #9796f0 10%, #FBC7D4 100%);
     border: 1px;
