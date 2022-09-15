@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Animal Fact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Welcome To Random Animal Fact Page</h1>
+        </div>
+        
+    <div class="content-box">
+        <h4><b> Details about this page:</b></h4>
+        <p>This is fun project made by <strong>Murgesh</strong> by using <b>"zoo-animal-api"</b>. This is useful for kids where you can show them inforamtion about zoo animals. It's informative as well as fun.</p>
+        <strong> <i class="bi bi-question"></i> How to use:</strong><span><p>This is page generate animal information randomly so, everytime you refresh page new animal will appear with information.</p></span>
+   
+        <strong><i class="bi bi-chevron-double-down"></i> Click on below button to generate random animal information:</strong><br><br>
+
+        <div class="clickButton">
+            <button class="btn btn-primary" onclick="generateInfo()"> Click Here </button>
+        </div>
+
+        <div id="information" class="info">
+            <!-- Here information will be passed from script -->
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
