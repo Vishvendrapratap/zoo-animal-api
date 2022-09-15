@@ -10,6 +10,9 @@ async function generateInfo(){
 
     // getting info to dom
      information.innerHTML=`
+     <div class="row">
+        <div class="col-lg-12 col-sm-12">
+
         <div class="card" style="width: 45rem; margin-top: 10px;">
             <div class="card-header" style="text-align: center">
                 <b>${res.name}</b>
@@ -25,6 +28,8 @@ async function generateInfo(){
                 <p><strong>Diet: </strong> ${res.diet} </p>
              </div> 
             </div>
+        </div>
+        </div>
         </div>
      `
    } catch (error) {
